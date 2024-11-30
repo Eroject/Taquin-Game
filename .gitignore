@@ -1,0 +1,37 @@
+# Ignorer les fichiers d'exécution
+*.exe
+*.out
+*.app
+
+# Ignorer les fichiers objets
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.dylib
+
+# Ignorer les fichiers de dépendances
+*.d
+
+# Ignorer les fichiers générés par l'éditeur/IDE
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.xcodeproj
+*.DS_Store
+
+# Ignorer les fichiers générés par les systèmes de build
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.ninja
+build/
+
+# Ignorer les fichiers temporaires et de sauvegarde
+*~
+*.swp
+*.tmp
+*.bak
